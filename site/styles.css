@@ -1,12 +1,14 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;
+}
 header{
   display: flex;
   justify-content: space-evenly;
-  text-align: cen  ter;
+  text-align: center;
 }
 nav{
   color:#0c0cff;
   text-align: center;
-  font-family:Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
 nav:hover{
@@ -14,7 +16,42 @@ nav:hover{
   font-family: 'arial black';
   cursor: pointer;
 }
-h1{
-  display: flex;
+#title{
+  display: flexbox;
+  text-align: center;
+  margin: 50px 10% 0% 10%;
+}
+#title img{
+  align-items: center;
+  width: 80%;
+}
+summary{
+  display: flexbox;
+  width:auto;
+}
+summary h1{
   justify-content: center;
+  text-align: center;
+}
+summary h2:hover,summary h3:hover{
+  background-color: #bcbcbc;
+}
+article{
+  display: flexbox;
+  text-align: justify;
+  font-size: 14px;
+}
+article img{
+  align-items: center;
+  width: 70%;
+}
+table{
+  width: 80%;
+  display: table;
+  table-layout: auto;
+  border-collapse: collapse;
+}
+table th, table td{
+  border: 1px solid #000000;
+  padding: 4px;
 }
